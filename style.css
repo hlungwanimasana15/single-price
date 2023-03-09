@@ -65,3 +65,38 @@ body{
     color: rgba(245, 245, 245, 0.425); 
     padding:0 0 0 30px;  
 }
+
+@media (max-width:412px) {
+    .container {
+        background-color: rgb(255, 255, 255);
+        margin: 100px 50px;
+        border-radius: 10px;
+    }
+    top-box p {
+        padding: 0 0 50px 30px;
+        color: rgb(161, 166, 178);
+        font-size: 8px;
+    }
+    .bottom-box {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left-box {
+        background-color: rgb(43, 179, 177);
+        border-radius: 0 0 0 0;
+    }
+    .left-box h2 {
+        color: rgb(225, 255, 255);
+        padding: 20px 0 0 30px;
+        font-weight: 400;
+    }
+    .right-box {
+        background-color: rgb(74, 190, 189);
+        border-radius: 0 0 10px 10px;
+    }
+    .right-box h2 {
+        color: rgb(225, 255, 255);
+        padding: 20px 0 0 30px;
+        font-weight: 400;
+    }
+}
