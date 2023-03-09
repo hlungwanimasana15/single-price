@@ -1,35 +1,67 @@
 body{
-
-
-text-align: center;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(230, 239, 246);
 }
-
-.box-2{
-
-text-align: center;
-font-family: karla;
-padding-left: 10px;
-padding-right: 10px;
-
+.container{
+    margin: 100px 400px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
 }
-
-button{
-
-background-color: rgb(237, 237, 45);
-border-radius: white;
-align-items:center ;
-width:80px;
-height: 30px;
- top:30%;
- 
+.top-box h2{
+    padding:50px 0 0 30px;
+    color: rgb(92, 157, 164);
 }
-
-.box-3{
-background-color: rgb(156, 233, 236);
-text-align: center;
-margin: 30px;
-padding: 15px
-
+.top-box h4{
+    padding:0 0 0 30px;
+    color: rgb(248, 248, 125);
+}
+.top-box p{
+    padding:0 0 50px 30px;
+    color: rgb(161, 166, 178);
+}
+.bottom-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-box{
+    background-color: rgb(43, 179, 177);
+    border-radius: 0 0 0 10px;
+}
+.left-box h2{
+    color: rgb(225, 255, 255);
+    padding:20px 0 0 30px;
+}
+.left-box h4{
+    color: rgb(225, 255, 255);
+    padding:0 0 0 30px;
+}
+.left-box p{
+    color: rgb(225, 255, 255);
+    padding:0 0 0 30px;
+}
+.left-box span{
+    color: rgba(245, 245, 245, 0.425);
+}
+.left-box button{
+    margin:0 0 40px 30px;
+    background-color: rgb(191, 223, 51);
+    border: none;
+    border-radius: 5px;
+    width: 215px;
+    height: 50px;
+    color: rgb(255, 255, 208);
+}
+.right-box{
+    background-color: rgb(74, 190, 189);
+    border-radius: 0 0 10px 0;
+}
+.right-box h2{
+    color: rgb(225, 255, 255);
+    padding:20px 0 0 30px;
+}
+.right-box p{
+    color: rgba(245, 245, 245, 0.425); 
+    padding:0 0 0 30px;  
 }

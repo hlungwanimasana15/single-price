@@ -1,80 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <script src="index.js"></script>
-  <title>Frontend Mentor | Single Price Grid Component</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-  <div class="container";>
-    
-  <div style="display:flex;
-  justify-content:center; 
-  align-items: center;">
- <div style="margin-top: 100px; margin-bottom: auto; ;">
-  <table width="100%" style="height: 50vh; border-spacing: 50px ;">
-
-  <tr>
-  <td colspan="2" width="500px" style="background-color: whitesmoke; border-top-left-radius: 5px; border-top-right-radius: 5px; ;"><h2 style="color:turquoise;" id="heading1";>Join our community</h2>
-
-    <p style="color: rgb(139, 182, 21);" id="para1";>30-day, hassle-free money back guarantee</p><br> 
-   
-    <p style="color: gray;" id="para2";> Gain access to our full library of tutorials along with expert code reviews. 
-     Perfect for any developers who are serious about honing their skills.</td>
-  </tr>
-<div class="box-2" width="50">
-  <div class="left-box">
- <tr>
- <td  style="background-color: rgb(15, 229, 236); border-bottom-left-radius: 5px; ;"> <h2 style="color:white"; id="heading2">Monthly Subscription</h2>
-  <h3 style="color:white" id="para12"> &dollar;29 per month</h3>
-
-  <p style="color:white" id="para13" >Full access for less than &dollar;1 a day</p>
-  
-
- <button id="mybtn" >Sign Up</button> 
- </td>
- </div>
-
- 
-<div class="box-3" width="50">
-  <div class="right-box">
-
- <td style="background-color: cyan; border-bottom-right-radius: 5px; ; ">
-   <h1  style="color:white" id="heading3">Why Us</h1>
-  
-   <p  style="color:white" id="para33"><br>industry experts
-  Peer &amp; expert code review
-  Coding exercises
- <br> Access to our GitHub repos
-  Community forum
- <br>Flashcard decks
-  New videos every week </p></td>
-  </tr>
-  </div>
-  </div>
-  </div>
-  </div>
-</table>
-
-
-    <p class="attribution">
-      Bootcamp 2023 by <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>. 
-      Developed by <a href="#">Your Name Here and link to your portfolio website</a>.
-    </p>
-</script>  
+    <div class="container">
+        <div class="top-box">
+            <h2 id="heading1">Join our community</h2>
+            <h4 id="para1">30-day,hassle-free money back gaurantee</h4>
+            <p id="para2">
+                Gain access to our full library
+            </p>
+        </div>
+        <div class="bottom-box">
+            <div class="left-box">
+                <h2 id="heading2">Monthly Subscription</h2>
+                <h4 id="para12"> $29 <span> per month</span></h4>
+                <p id="para13">
+                    Full access for less than $1 a day
+                </p>
+                <button id="myBtn">Sign Up</button>
+            </div>
+            <div class="right-box">
+                <h2 id="heading3">Why Us</h2>
+                <p id="para33">
+                    Tutorials by industry experts
+                    Peer & expert code review</br>
+                    Coding exercises</br>
+                    Access to our GitHub repos</br>
+                    Community forum</br>
+                    Flashcard decks</br>
+                    New videos every week
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
-<!-- Source Frontend Mentor: https://www.frontendmentor.io -->
